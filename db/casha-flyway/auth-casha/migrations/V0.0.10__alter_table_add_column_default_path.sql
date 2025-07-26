@@ -1,0 +1,2 @@
+ALTER TABLE role
+ADD COLUMN default_path VARCHAR(100) DEFAULT NULL COMMENT '角色對應的預設首頁路徑';
