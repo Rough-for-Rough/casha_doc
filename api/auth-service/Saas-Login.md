@@ -7,6 +7,7 @@ Saas 平台帳號密碼登入，登入成功後生成 JWT, 在 Redis 內儲存, 
 | version | 時間 | 作者 | 內容  |
 | ------ | ------ | -------| -------|
 | 1 | 2025/07/20 | William | 建立 login 機制, 不含 refresh token  |
+| 2 | 2025/07/23 | William | 調整 RBAC 機制  |
 
 ## API
 

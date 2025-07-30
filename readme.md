@@ -28,12 +28,9 @@ Casha 是一個精簡版的 F&B SaaS 系統, 由 Vue3 + Spring Cloud 開發。
 * MinIO
 
 * EFK
-* 
-
-
+* jeager
 
 ## Infra and Pipeline:
-
 
 ## Casha 的優勢與亮點:
 
@@ -41,10 +38,6 @@ Casha 是一個精簡版的 F&B SaaS 系統, 由 Vue3 + Spring Cloud 開發。
 2. 吞吐量高 (吹捧 Redis, Mq 並展示 Jmeter)
 3. 完整的 SDLC
 
-## How to Start
+## 各項文件:
 
-先確保開發環境包含 node.js, java 17 & docker
-
-在 /docker/casha-middleware 下啟動 docker-compose
-
-
+RBAC

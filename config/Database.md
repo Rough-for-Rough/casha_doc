@@ -1,7 +1,5 @@
 # Database 要點
 
-
-
 ## Primary Key
 
 使用 Snowflake ID 來確保全局唯一且趨勢遞增，避免自增 ID 對分庫分表的限制；同時引入 shard_code 作為路由維度，應用層計算分片(ShardingSphere)，避免數據庫層 FK 造成瓶頸
